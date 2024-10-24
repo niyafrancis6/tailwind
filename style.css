@@ -1,0 +1,58 @@
+.img
+{
+    width: 400px;
+    height: 250px;
+}
+.iconcollection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,rgb(0, 238, 255),green,yellow);
+}
+.icon:hover .brands{
+    color: aliceblue;
+    /* animation */
+    animation: rotate 3s;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+    }
+
+    40%{
+        transform: rotate(40deg);
+    }
+    60%{
+        transform: rotate(-40deg);
+    }
+    80%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+    
+}
+.end{
+    margin-top: 40px;
+}
